@@ -30,13 +30,13 @@ public class Tracker {
     }
 
     public Item[] findByName(String key) {
-        Item[] items1 = new Item[size];
+        Item[] rsl = new Item[size];
         int counter = 0;
         for (int i = 0; i < size; i++) {
             if (key.equals(items[i].getName())) {
-                items1[counter++] = items[i];
+                rsl[counter++] = items[i];
             }
         }
-        return Arrays.copyOf(items1, counter);
+        return Arrays.copyOf(rsl, counter);
     }
 }
