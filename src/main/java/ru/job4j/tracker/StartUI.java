@@ -13,7 +13,7 @@ public class StartUI {
             int select = Integer.parseInt(scanner.nextLine());
             if (select != 6) {
                 System.out.println("Пользователь выбрал: " + select);
-            }else {
+            } else {
                 run = false;
             }
         }
