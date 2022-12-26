@@ -5,11 +5,13 @@ import java.util.Objects;
 public class UserStore {
     public static User findUser(User[] users, String login) throws UserNotFoundException {
         User result = null;
-        for (int index = 0; index < users.length; index++) {
-            if (login.equals(users[index].getUsername())) {
-                result = users[index];
+        for (User user : users) {
+            if (login.equals(user.getUsername())) {
+                result = user;
+                break;
             }
         }
+
         if (result == null) {
             throw new UserNotFoundException("This login was not found.");
         }
