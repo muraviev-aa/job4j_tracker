@@ -14,6 +14,7 @@ public class UniqueText {
         for (String fragment : text) {
             if (!check.contains(fragment)) {
                 rsl = false;
+                break;
             }
         }
         return rsl;
