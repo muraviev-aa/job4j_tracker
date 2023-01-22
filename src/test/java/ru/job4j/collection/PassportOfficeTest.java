@@ -18,7 +18,8 @@ public class PassportOfficeTest {
     public void whenDupleNumberMethod() {
         Citizen citizen = new Citizen("2f44a", "Petr Arsentev");
         PassportOffice office = new PassportOffice();
-        Boolean expected = office.add(citizen);
-        assertThat(expected).isFalse();
+        office.add(citizen);
+        Citizen citizen1 = new Citizen("2f44a", "Petr Arsentev");
+        assertThat(office.add(citizen1)).isFalse();
     }
 }
