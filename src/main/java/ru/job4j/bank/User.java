@@ -5,7 +5,7 @@ import java.util.Objects;
 /**
  * Модель пользователя банка
  * @version 1.0
- * @autor ALEKSEI MURAVIEV
+ * @author ALEKSEI MURAVIEV
  */
 public class User {
     /**

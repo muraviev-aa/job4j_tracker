@@ -4,7 +4,7 @@ import java.util.Objects;
 
 /**
  * Модель банковского счета
- * @autor ALEKSEI MURAVIEV
+ * @author ALEKSEI MURAVIEV
  * @version 1.0
  */
 public class Account {

@@ -7,7 +7,7 @@ import java.util.Map;
 
 /**
  * Главный сервис
- * @autor ALEKSEI MURAVIEV
+ * @author ALEKSEI MURAVIEV
  * @version 1.0
  */
 public class BankService {
