@@ -2,7 +2,7 @@
 
 ## О проекте
 
-<img src="https://ic.wampi.ru/2023/02/01/Comp.jpg" alt="drawing" width="650"/>
+<img src="https://ic.wampi.ru/2023/02/01/Comp.jpg" alt="drawing" width="750"/>
 
 Этот проект - консольное приложение. Пользователю отображается меню с возможностями программы.
 
