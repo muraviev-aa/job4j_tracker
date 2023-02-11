@@ -15,6 +15,10 @@ public class Student {
         return score;
     }
 
+    public String getSurname() {
+        return surname;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) {
